@@ -26,3 +26,8 @@ It's a pain to solder the camera module directly to the board, so I'd strongly r
 | U2 | AP2112-3.3V | https://www.lcsc.com/product-detail/_Diodes-Incorporated-_C51118.html |
 | X1 | SG3225CAN 24.0000M-TJGA3 | https://www.lcsc.com/product-detail/_Seiko-Epson-_C32528.html |
 
+## Credits
+
+[JayBee](https://www.gun4ir.com/) - creator of Gun4IR - sharing the schematic
+
+Gzus348 - creating the camera jig
