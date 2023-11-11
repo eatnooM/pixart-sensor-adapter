@@ -14,7 +14,11 @@ The inline board should be ordered in 0.8mm thickness, otherwise you won't be ab
 
 It's a pain to solder the camera module directly to the board, so I'd strongly recommend running off [the camera module jig](inline/Wii-IR-camera-solder-guideGun4IR-v7.stl) graciously provided by Gzus348.
 
-*BOM*:
+## Ordering
+
+Either download the gerbers from [the latest release](https://github.com/eatnooM/pixart-sensor-adapter/releases/latest) or run off directly from OSHPark ([Inline](https://oshpark.com/shared_projects/EPIfHW2C) / [Socketed](https://oshpark.com/shared_projects/FovxzPdv)). See below for the Bill of Materials - these can be purchased from your preferred electronic component distributor but I've provided LCSC links I used for convenience.
+
+## BOM
 
 | Reference | Value | Link |
 |-----------|-------|------|
