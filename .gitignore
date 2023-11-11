@@ -30,6 +30,5 @@ fp-info-cache
 *.csv
 
 # Project-specific
-gerbers/*
+*/gerbers/*
 *gerbers.zip
-promicro-scorpion2.pretty/.svg2shenzhen-cache/**
