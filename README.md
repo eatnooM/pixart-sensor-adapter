@@ -1,5 +1,7 @@
 # pixart-sensor-adapter
 
+![Picture of an assembled board](https://github.com/eatnooM/pixart-sensor-adapter/assets/1300835/cdcc46df-1f16-41a8-90ac-a6b3eefab124)
+
 License: CC BY-NC 4.0
 
 Allows interfacing with a Wiimote camera over I2C for GUN4IR.
