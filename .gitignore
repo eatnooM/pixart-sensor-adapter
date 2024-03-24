@@ -31,4 +31,5 @@ fp-info-cache
 
 # Project-specific
 */gerbers/*
-*gerbers.zip
+*/gerbers-*/*
+*gerbers*.zip
