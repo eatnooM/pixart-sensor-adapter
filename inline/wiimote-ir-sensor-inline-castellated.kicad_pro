@@ -510,7 +510,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers-castellated/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
