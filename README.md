@@ -30,7 +30,7 @@ Either download the gerbers from [the latest release](https://github.com/eatnooM
 | R3 | 330KΩ | https://www.lcsc.com/product-detail/_YAGEO-_C114618.html |
 | U1 | Wiimote camera module – salvaged from official wiimote | Salvage |
 | U2 | AP2112-3.3V | https://www.lcsc.com/product-detail/_Diodes-Incorporated-_C51118.html |
-| X1 | 24-25MHz SMD3225 active crystal oscillator| https://www.lcsc.com/product-detail/Oscillators_YXC-OT2EL4C4JI-111OLP-24M_C5203548.html / https://www.mouser.com/ProductDetail/Epson-Timing/SG3225CAN-24.0000M-TJGA3?qs=zW32dvEIR3uCRouZy6ubvA%3D%3D |
+| X1 | 24-25MHz SMD3225 active crystal oscillator| https://www.lcsc.com/product-detail/Oscillators_YXC-OT2EL4C4JI-111OLP-24M_C5203548.html / https://www.mouser.com/ProductDetail/Epson-Timing/SG3225CAN-24.0000M-TJGA3 |
 
 ## Credits
 
