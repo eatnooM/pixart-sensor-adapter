@@ -24,13 +24,13 @@ Either download the gerbers from [the latest release](https://github.com/eatnooM
 
 | Reference | Value | Link |
 |-----------|-------|------|
-| C1 | 0.1uF | [LCSC - YAGEO CC0603KRX7R9BB104](https://www.lcsc.com/product-detail/_YAGEO-_C14663.html) / [Mouser - KYOCERA 06035C104KAT4A](https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C104KAT4A?qs=wQ3bP3iXTzYfFzAFm7vUeQ%3D%3D) |
-| C2, C3 | 1uF | [LCSC - YAGEO CC0603JRX7R7BB105](https://www.lcsc.com/product-detail/_YAGEO-_C519560.html) / [Mouser - KYOCERA 06035C105KAT2A](https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/06035C105KAT2A?qs=%252BdQmOuGyFcGCdIIWh6fU7Q%3D%3D)|
-| R1, R2 | 2.7KΩ | [LCSC - YAGEO RC0603FR-072K7L](https://www.lcsc.com/product-detail/_YAGEO-_C114612.html) / [Mouser - Panasonic ERJ-3GEYJ272V](https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3GEYJ272V?qs=sGAEpiMZZMvdGkrng054tw5%2FFYq5P%2FDo1QNxauZrLUw%3D) |
-| R3 | 330KΩ | [LCSC - YAGEO RC0603FR-07330KL](https://www.lcsc.com/product-detail/_YAGEO-_C114618.html) / [Mouser - Panasonic ERJ-3GEYJ334V](https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-3GEYJ334V?qs=sGAEpiMZZMvdGkrng054tx7%2F6%252BNA3LAJ%2FEUpZ7PzDzs%3D) |
+| C1 | 0.1uF | [LCSC - YAGEO CC0603KRX7R9BB104](https://www.lcsc.com/product-detail/_YAGEO-_C14663.html) / [Mouser - KYOCERA 06035C104KAT4A](https://www.mouser.com/ProductDetail/KYOCERA-AVX/06035C104KAT4A?qs=wQ3bP3iXTzYfFzAFm7vUeQ%3D%3D) |
+| C2, C3 | 1uF | [LCSC - YAGEO CC0603JRX7R7BB105](https://www.lcsc.com/product-detail/_YAGEO-_C519560.html) / [Mouser - KYOCERA 06035C105KAT2A](https://www.mouser.com/ProductDetail/KYOCERA-AVX/06035C105KAT2A?qs=%252BdQmOuGyFcGCdIIWh6fU7Q%3D%3D)|
+| R1, R2 | 2.7KΩ | [LCSC - YAGEO RC0603FR-072K7L](https://www.lcsc.com/product-detail/_YAGEO-_C114612.html) / [Mouser - Panasonic ERJ-3GEYJ272V](https://www.mouser.com/ProductDetail/Panasonic/ERJ-3GEYJ272V?qs=sGAEpiMZZMvdGkrng054tw5%2FFYq5P%2FDo1QNxauZrLUw%3D) |
+| R3 | 33KΩ | [LCSC - YAGEO RC0603FR-0733KL](https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0603FR-0733KL_C126359.html) / [Mouser - Panasonic ERJ-3GEYJ333V](https://www.mouser.com/ProductDetail/Panasonic/ERJ-3GEYJ333V?qs=JjxTDIFmKPQB8Hd2hIsG7w%3D%3D) |
 | U1 | Wiimote camera module – salvaged from official wiimote | Salvaged |
-| U2 | AP2112-3.3V | [LCSC](https://www.lcsc.com/product-detail/_Diodes-Incorporated-_C51118.html) / [Mouser](https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2112K-3.3TRG1) |
-| X1 | 24-25MHz SMD3225 active crystal oscillator | [LCSC - YXC OT2EL4C4JI-111OLP-24M](https://www.lcsc.com/product-detail/Oscillators_YXC-OT2EL4C4JI-111OLP-24M_C5203548.html) / [Mouser - KYOCERA KC3225K24.0000C1GE00](https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/KC3225K24.0000C1GE00?qs=rfsXwfL%252BOM9DBu9I0fBoew%3D%3D) |
+| U2 | AP2112-3.3V | [LCSC](https://www.lcsc.com/product-detail/_Diodes-Incorporated-_C51118.html) / [Mouser](https://www.mouser.com/ProductDetail/Diodes-Incorporated/AP2112K-3.3TRG1) |
+| X1 | 24-25MHz SMD3225 active crystal oscillator | [LCSC - YXC OT2EL4C4JI-111OLP-24M](https://www.lcsc.com/product-detail/Oscillators_YXC-OT2EL4C4JI-111OLP-24M_C5203548.html) / [Mouser - KYOCERA KC3225K24.0000C1GE00](https://www.mouser.com/ProductDetail/KYOCERA-AVX/KC3225K24.0000C1GE00?qs=rfsXwfL%252BOM9DBu9I0fBoew%3D%3D) |
 
 ## Credits
 

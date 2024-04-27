@@ -1,1432 +1,3668 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 8863941e-bc94-45df-82a4-2b6eb6c570e3)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Connector:Conn_01x04_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x04_Pin" (at 0 -7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x04, script generated" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x04_Pin_1_1"
-        (polyline
-          (pts
-            (xy 1.27 -5.08)
-            (xy 0.8636 -5.08)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -2.54)
-            (xy 0.8636 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 0.8636 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 2.54)
-            (xy 0.8636 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 0.8636 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 5.08 2.54 180) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -5.08 180) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Oscillator:SG-5032CAN" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "X" (at -5.08 6.35 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "SG-5032CAN" (at 1.27 -6.35 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm" (at 17.78 -8.89 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en" (at -2.54 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "Crystal Clock Oscillator" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "CMOS Clock Oscillator 1 to 75 MHz" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Oscillator*SMD*SeikoEpson*SG8002LB*5.0x3.2mm*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SG-5032CAN_0_1"
-        (rectangle (start -5.08 5.08) (end 5.08 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -0.762)
-            (xy -1.016 -0.762)
-            (xy -1.016 0.762)
-            (xy -0.508 0.762)
-            (xy -0.508 -0.762)
-            (xy 0 -0.762)
-            (xy 0 0.762)
-            (xy 0.508 0.762)
-            (xy 0.508 -0.762)
-            (xy 0.762 -0.762)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "SG-5032CAN_1_1"
-        (pin input line (at -7.62 0 0) (length 2.54)
-          (name "~{ST}" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 7.62 0 180) (length 2.54)
-          (name "OUT" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 7.62 270) (length 2.54)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Regulator_Linear:AP2112K-3.3" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -5.08 5.715 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "AP2112K-3.3" (at 0 5.715 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 0 8.255 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "linear regulator ldo fixed positive" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT?23?5*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "AP2112K-3.3_0_1"
-        (rectangle (start -5.08 4.445) (end 5.08 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "AP2112K-3.3_1_1"
-        (pin power_in line (at -7.62 2.54 0) (length 2.54)
-          (name "VIN" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 0 0) (length 2.54)
-          (name "EN" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at 5.08 0 180) (length 2.54) hide
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 7.62 2.54 180) (length 2.54)
-          (name "VOUT" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#FLG" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "PWR_FLAG" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "flag power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PWR_FLAG_0_0"
-        (pin power_out line (at 0 0 90) (length 0)
-          (name "pwr" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "PWR_FLAG_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy -1.016 1.905)
-            (xy 0 2.54)
-            (xy 1.016 1.905)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "wiimote_ir_camera:Wiimote_IR_Camera" (pin_names (offset 0.5)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 13.97 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Wiimote_IR_Camera_0_1"
-        (rectangle (start -6.35 12.7) (end 5.08 -7.62)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Wiimote_IR_Camera_1_1"
-        (pin power_in line (at -8.89 11.43 0) (length 2.54)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -8.89 8.89 0) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -8.89 6.35 0) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin no_connect line (at -8.89 3.81 0) (length 2.54)
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -8.89 1.27 0) (length 2.54)
-          (name "SCL" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -8.89 -1.27 0) (length 2.54)
-          (name "SDA" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -8.89 -3.81 0) (length 2.54)
-          (name "CLK" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -8.89 -6.35 0) (length 2.54)
-          (name "RESET" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 74.93 88.9) (diameter 0) (color 0 0 0 0)
-    (uuid 0079e69e-219a-4416-8bc2-ba5a1bb0d18f)
-  )
-  (junction (at 64.77 46.99) (diameter 0) (color 0 0 0 0)
-    (uuid 186b4065-b131-4347-8477-74d008150b0f)
-  )
-  (junction (at 147.32 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid 2085581c-b152-4b86-bca7-cd205c734e4c)
-  )
-  (junction (at 135.89 104.14) (diameter 0) (color 0 0 0 0)
-    (uuid 25d953e7-118d-4009-b71e-e8480086e85a)
-  )
-  (junction (at 74.93 76.2) (diameter 0) (color 0 0 0 0)
-    (uuid 302fe15f-347c-4b0b-97a2-5a87384a7b27)
-  )
-  (junction (at 154.94 76.2) (diameter 0) (color 0 0 0 0)
-    (uuid 3c70cb5f-c9e1-4809-88d7-02af0993446c)
-  )
-  (junction (at 132.08 76.2) (diameter 0) (color 0 0 0 0)
-    (uuid 3e7c4c89-4e2d-48ee-ac04-dd194d7b7360)
-  )
-  (junction (at 132.08 111.76) (diameter 0) (color 0 0 0 0)
-    (uuid 41a322dc-1f7a-4dc1-9779-45f62700674d)
-  )
-  (junction (at 80.01 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid 7d9b70e2-103c-4f77-a83f-8fa3fc3097a3)
-  )
-  (junction (at 90.17 44.45) (diameter 0) (color 0 0 0 0)
-    (uuid 7e3562c3-c597-4d3f-886c-8c8dcd6c7073)
-  )
-  (junction (at 154.94 91.44) (diameter 0) (color 0 0 0 0)
-    (uuid a58eaa5b-eb3b-4b81-9ae5-7713687b810e)
-  )
-  (junction (at 64.77 41.91) (diameter 0) (color 0 0 0 0)
-    (uuid a683f0fd-6576-45fc-bed0-9d54ffc58c82)
-  )
-  (junction (at 118.11 76.2) (diameter 0) (color 0 0 0 0)
-    (uuid bf7403f8-762e-4b06-b997-2d347bc018ee)
-  )
-  (junction (at 166.37 91.44) (diameter 0) (color 0 0 0 0)
-    (uuid c5b873d3-ede9-4083-b0d2-118e7999b6ed)
-  )
-  (junction (at 118.11 114.3) (diameter 0) (color 0 0 0 0)
-    (uuid c9944a18-b816-4585-baa3-18849456bd3d)
-  )
-  (junction (at 64.77 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid d457c04d-02cb-4711-a756-7336ffb652f9)
-  )
-  (junction (at 114.3 76.2) (diameter 0) (color 0 0 0 0)
-    (uuid ecc27b33-bedd-4f5e-8b4f-425fcb59c02c)
-  )
-
-  (no_connect (at 158.75 83.82) (uuid afabc245-9153-405c-9ae7-80dce8b22e6e))
-
-  (wire (pts (xy 72.39 78.74) (xy 72.39 76.2))
-    (stroke (width 0) (type default))
-    (uuid 0de9eb17-4a2f-42fa-afff-2b5202638975)
-  )
-  (wire (pts (xy 118.11 76.2) (xy 118.11 77.47))
-    (stroke (width 0) (type default))
-    (uuid 111c460b-d46f-46b8-bd4d-73ffe70bb68c)
-  )
-  (wire (pts (xy 154.94 86.36) (xy 154.94 91.44))
-    (stroke (width 0) (type default))
-    (uuid 1246276c-1973-4ce0-8d37-bfe27efb0d74)
-  )
-  (wire (pts (xy 114.3 76.2) (xy 114.3 101.6))
-    (stroke (width 0) (type default))
-    (uuid 16314c1f-00bf-4bd6-9fc6-d8008f850a67)
-  )
-  (wire (pts (xy 64.77 46.99) (xy 64.77 49.53))
-    (stroke (width 0) (type default))
-    (uuid 1926c90e-fc3b-4172-b621-54b8426bf1f4)
-  )
-  (wire (pts (xy 142.24 116.84) (xy 147.32 116.84))
-    (stroke (width 0) (type default))
-    (uuid 1a422f1f-0f97-49d3-9b70-b5567ce737c1)
-  )
-  (wire (pts (xy 90.17 44.45) (xy 90.17 46.99))
-    (stroke (width 0) (type default))
-    (uuid 1a63fcc5-6637-4070-9aa8-2cc1fb607bd5)
-  )
-  (wire (pts (xy 74.93 76.2) (xy 76.2 76.2))
-    (stroke (width 0) (type default))
-    (uuid 2043b573-f1e7-4ecc-968f-be3b0a4dcdfa)
-  )
-  (wire (pts (xy 135.89 91.44) (xy 154.94 91.44))
-    (stroke (width 0) (type default))
-    (uuid 23ff58a4-dd17-420f-b722-30ae0fad5ab5)
-  )
-  (wire (pts (xy 80.01 54.61) (xy 80.01 57.15))
-    (stroke (width 0) (type default))
-    (uuid 273344a9-15bc-4854-8883-2cdcd71de48e)
-  )
-  (wire (pts (xy 114.3 101.6) (xy 147.32 101.6))
-    (stroke (width 0) (type default))
-    (uuid 2961637a-3982-45b1-95be-8e0c14164e94)
-  )
-  (wire (pts (xy 90.17 54.61) (xy 90.17 57.15))
-    (stroke (width 0) (type default))
-    (uuid 2bfec32f-5a0c-45b3-8d9c-1086bbdba1b6)
-  )
-  (wire (pts (xy 69.85 78.74) (xy 72.39 78.74))
-    (stroke (width 0) (type default))
-    (uuid 30fc7180-a348-4c03-b9b1-6d3695b6b163)
-  )
-  (wire (pts (xy 182.88 125.73) (xy 142.24 125.73))
-    (stroke (width 0) (type default))
-    (uuid 32ddf40c-c894-48bf-9ae8-cf24527b5fd5)
-  )
-  (wire (pts (xy 64.77 57.15) (xy 64.77 62.23))
-    (stroke (width 0) (type default))
-    (uuid 3406147e-584e-4e93-9cd7-8adcb2437908)
-  )
-  (wire (pts (xy 111.76 76.2) (xy 114.3 76.2))
-    (stroke (width 0) (type default))
-    (uuid 3e0f133d-58a6-4288-958d-e5220691cc01)
-  )
-  (wire (pts (xy 72.39 86.36) (xy 72.39 88.9))
-    (stroke (width 0) (type default))
-    (uuid 40e3dae5-2b41-4570-8917-9037bedc2c91)
-  )
-  (wire (pts (xy 154.94 91.44) (xy 166.37 91.44))
-    (stroke (width 0) (type default))
-    (uuid 41c074bb-7ba0-4ef7-8515-bf8d6b2b973a)
-  )
-  (wire (pts (xy 163.83 95.25) (xy 163.83 105.41))
-    (stroke (width 0) (type default))
-    (uuid 42371a39-9b09-44ed-9e29-0b265744527b)
-  )
-  (wire (pts (xy 154.94 76.2) (xy 166.37 76.2))
-    (stroke (width 0) (type default))
-    (uuid 440d6371-eea9-4296-b465-c2c89a692edd)
-  )
-  (wire (pts (xy 74.93 88.9) (xy 76.2 88.9))
-    (stroke (width 0) (type default))
-    (uuid 46cf3500-6b45-4026-afc0-071de87ceeae)
-  )
-  (wire (pts (xy 69.85 83.82) (xy 72.39 83.82))
-    (stroke (width 0) (type default))
-    (uuid 47be9fe5-f14f-4d22-bae5-8178a2023a32)
-  )
-  (wire (pts (xy 163.83 123.19) (xy 147.32 123.19))
-    (stroke (width 0) (type default))
-    (uuid 560e6c2c-71d2-4b23-a46f-5cbe2a018621)
-  )
-  (wire (pts (xy 114.3 76.2) (xy 118.11 76.2))
-    (stroke (width 0) (type default))
-    (uuid 5df3b354-7460-447b-9b01-d6dac44c8c87)
-  )
-  (wire (pts (xy 132.08 111.76) (xy 147.32 111.76))
-    (stroke (width 0) (type default))
-    (uuid 5ea49e5d-06db-4bd6-ae61-b4fb2acbaaef)
-  )
-  (wire (pts (xy 135.89 104.14) (xy 135.89 91.44))
-    (stroke (width 0) (type default))
-    (uuid 6a993461-dd24-4978-83d8-ae96428a2fc4)
-  )
-  (wire (pts (xy 72.39 44.45) (xy 72.39 41.91))
-    (stroke (width 0) (type default))
-    (uuid 6d5ada5c-c36f-40ad-9557-6b2b4c2ce7d6)
-  )
-  (wire (pts (xy 147.32 95.25) (xy 147.32 101.6))
-    (stroke (width 0) (type default))
-    (uuid 74995f95-bd0f-443d-9acf-b885ef6b5cd6)
-  )
-  (wire (pts (xy 182.88 83.82) (xy 182.88 125.73))
-    (stroke (width 0) (type default))
-    (uuid 7ada4bba-6f29-41f3-9208-be55e7d0fb9d)
-  )
-  (wire (pts (xy 166.37 91.44) (xy 173.99 91.44))
-    (stroke (width 0) (type default))
-    (uuid 804c9f11-7568-462a-b8d8-bcb9197b6499)
-  )
-  (wire (pts (xy 72.39 76.2) (xy 74.93 76.2))
-    (stroke (width 0) (type default))
-    (uuid 879044e4-23d2-4c15-959a-556549570d99)
-  )
-  (wire (pts (xy 132.08 76.2) (xy 154.94 76.2))
-    (stroke (width 0) (type default))
-    (uuid 88c43d78-8391-4e85-b6ba-6d7c7655a71b)
-  )
-  (wire (pts (xy 128.27 111.76) (xy 132.08 111.76))
-    (stroke (width 0) (type default))
-    (uuid 89a331d1-b4dc-4ab9-a93c-c1ed4a0d31db)
-  )
-  (wire (pts (xy 69.85 81.28) (xy 72.39 81.28))
-    (stroke (width 0) (type default))
-    (uuid 8ac275c1-377f-4a1b-901e-0bb1e93f7379)
-  )
-  (wire (pts (xy 64.77 46.99) (xy 72.39 46.99))
-    (stroke (width 0) (type default))
-    (uuid 8bc20d9a-1c23-4b67-94d9-f6b1aa133a32)
-  )
-  (wire (pts (xy 69.85 86.36) (xy 72.39 86.36))
-    (stroke (width 0) (type default))
-    (uuid 91f38846-0b8f-4560-b497-ade4e0076c68)
-  )
-  (wire (pts (xy 132.08 76.2) (xy 132.08 77.47))
-    (stroke (width 0) (type default))
-    (uuid 97c3bf28-5837-4209-98b4-85e145a1e65c)
-  )
-  (wire (pts (xy 118.11 85.09) (xy 118.11 114.3))
-    (stroke (width 0) (type default))
-    (uuid 9eac7241-07ed-4ba7-886d-5346964af37d)
-  )
-  (wire (pts (xy 173.99 83.82) (xy 182.88 83.82))
-    (stroke (width 0) (type default))
-    (uuid a296da82-d000-4d2b-a77a-77c143fe112e)
-  )
-  (wire (pts (xy 118.11 76.2) (xy 132.08 76.2))
-    (stroke (width 0) (type default))
-    (uuid a4d9d6c7-71b0-4089-aefa-88543d3640da)
-  )
-  (wire (pts (xy 80.01 57.15) (xy 64.77 57.15))
-    (stroke (width 0) (type default))
-    (uuid a7b5b497-56e2-4a47-b4a1-942b20e6b8ca)
-  )
-  (wire (pts (xy 163.83 113.03) (xy 163.83 123.19))
-    (stroke (width 0) (type default))
-    (uuid a9c051f3-07f0-4ca9-a318-2f9a775dcdf3)
-  )
-  (wire (pts (xy 72.39 88.9) (xy 74.93 88.9))
-    (stroke (width 0) (type default))
-    (uuid b39e0a77-75e0-469b-8fdf-b820e6ace901)
-  )
-  (wire (pts (xy 135.89 104.14) (xy 147.32 104.14))
-    (stroke (width 0) (type default))
-    (uuid b488e7f4-c0d6-48bc-a9bb-a0fd4e29389d)
-  )
-  (wire (pts (xy 59.69 41.91) (xy 64.77 41.91))
-    (stroke (width 0) (type default))
-    (uuid bb6a8571-1634-48ca-a001-bee0c900c9fe)
-  )
-  (wire (pts (xy 147.32 119.38) (xy 147.32 123.19))
-    (stroke (width 0) (type default))
-    (uuid bd897504-4634-4c4e-bd4a-76f538207e86)
-  )
-  (wire (pts (xy 64.77 41.91) (xy 72.39 41.91))
-    (stroke (width 0) (type default))
-    (uuid be823568-51a0-4409-bec6-1fd1bfc628dc)
-  )
-  (wire (pts (xy 118.11 114.3) (xy 147.32 114.3))
-    (stroke (width 0) (type default))
-    (uuid c13fed04-7b2c-4634-88e3-153a0e37825c)
-  )
-  (wire (pts (xy 90.17 57.15) (xy 80.01 57.15))
-    (stroke (width 0) (type default))
-    (uuid c8b3882c-a72b-45bd-8ad0-86742080d20d)
-  )
-  (wire (pts (xy 154.94 76.2) (xy 154.94 78.74))
-    (stroke (width 0) (type default))
-    (uuid ce1e1f6b-84d9-454f-87d1-55ea259f38f8)
-  )
-  (wire (pts (xy 90.17 44.45) (xy 92.71 44.45))
-    (stroke (width 0) (type default))
-    (uuid d00ee5b3-8b4d-4ddc-a59b-223c11e83ffc)
-  )
-  (wire (pts (xy 135.89 106.68) (xy 135.89 104.14))
-    (stroke (width 0) (type default))
-    (uuid d2f989b9-fd24-4b55-a9dd-e4e1be7c032e)
-  )
-  (wire (pts (xy 64.77 41.91) (xy 64.77 46.99))
-    (stroke (width 0) (type default))
-    (uuid d368bf26-4e02-4804-ae04-aa5c3c011e33)
-  )
-  (wire (pts (xy 132.08 111.76) (xy 132.08 85.09))
-    (stroke (width 0) (type default))
-    (uuid d557dca4-0ec4-49dd-855a-51889b2bab5a)
-  )
-  (wire (pts (xy 142.24 125.73) (xy 142.24 116.84))
-    (stroke (width 0) (type default))
-    (uuid d7220343-572a-466f-9240-f0a3386555a4)
-  )
-  (wire (pts (xy 147.32 106.68) (xy 135.89 106.68))
-    (stroke (width 0) (type default))
-    (uuid e681e6b1-9420-484f-a4b0-d30d56f25e4a)
-  )
-  (wire (pts (xy 87.63 44.45) (xy 90.17 44.45))
-    (stroke (width 0) (type default))
-    (uuid e78dbb43-f9e1-47ea-bf39-c3a4e500f84c)
-  )
-  (wire (pts (xy 113.03 114.3) (xy 118.11 114.3))
-    (stroke (width 0) (type default))
-    (uuid eb015658-e712-44b2-9811-bea14c408883)
-  )
-  (wire (pts (xy 147.32 95.25) (xy 163.83 95.25))
-    (stroke (width 0) (type default))
-    (uuid ed89b121-128a-41c6-af22-b74dcad38249)
-  )
-
-  (label "SDA" (at 113.03 114.3 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 1a62a863-11c9-4f43-9948-dccb1ba81847)
-  )
-  (label "SDA" (at 72.39 83.82 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6a4a44fc-e53a-4810-8a73-274f7a12dadf)
-  )
-  (label "SCL" (at 72.39 81.28 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 86119f8d-33b3-45d3-83f1-a67d3ca6a8df)
-  )
-  (label "CLK" (at 182.88 86.36 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid acc422ad-1716-458b-aeca-00a15d29223b)
-  )
-  (label "SCL" (at 128.27 111.76 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid c16241e9-578d-4cd7-85f7-5bb9fd7fca63)
-  )
-
-  (symbol (lib_id "Device:C") (at 90.17 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0a541b2e-a97b-4e67-b7dd-511967db6198)
-    (property "Reference" "C12" (at 93.98 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1uF" (at 93.98 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 91.1352 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 90.17 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5644613a-9845-4aed-abf2-5b7e010e5263))
-    (pin "2" (uuid 78103b7d-5e04-4e52-82b1-fde7e162dc97))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "C12") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "C2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 74.93 88.9 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1746b0ed-d482-4d30-978e-1d2f7155f1d5)
-    (property "Reference" "#FLG02" (at 74.93 90.805 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 74.93 93.98 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 74.93 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 74.93 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9da6cd8f-2664-4140-9a94-1de691bbd9af))
-    (instances
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "#FLG02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 76.2 76.2 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 17d814b2-64fe-46bd-b300-33821261c183)
-    (property "Reference" "#PWR03" (at 72.39 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 80.01 76.835 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 76.2 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 76.2 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1bbaba4f-fac2-4d72-8255-0a08022d7fd6))
-    (instances
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x04_Pin") (at 64.77 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1d8ecea5-7916-45fc-aeb5-5d1b58ed97f2)
-    (property "Reference" "J1" (at 68.58 72.39 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x04_Pin" (at 68.58 74.93 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 64.77 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 64.77 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6d5aa69a-2d90-49a5-97a2-cb6be86e7b53))
-    (pin "2" (uuid 3ae1e56e-8bbc-47ed-ba1e-c92a2cef8500))
-    (pin "3" (uuid 2e327697-e2af-4ee1-92fa-ee0c79456478))
-    (pin "4" (uuid 7898daf1-1470-469e-b912-c7227b99d21c))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "J1") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 92.71 44.45 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 26f63e22-3715-479c-b62a-45dffc2f9317)
-    (property "Reference" "#PWR01" (at 88.9 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 96.52 45.085 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 92.71 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 92.71 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 169550ff-80da-4d1f-ab77-b461e50edd74))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 64.77 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 337767e8-6de5-4660-81ce-89f7bff743d2)
-    (property "Reference" "C11" (at 68.58 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1uF" (at 68.58 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 65.7352 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 64.77 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1817cf8d-0881-4d6a-9007-13db154ccdee))
-    (pin "2" (uuid fe89a7a0-dac1-4532-8001-5eb64c5ddb38))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "C11") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "C3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 163.83 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 36435fab-e191-4d86-b545-d26e196baac9)
-    (property "Reference" "R13" (at 166.37 108.585 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "330K" (at 166.37 111.125 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 162.052 109.22 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 163.83 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6edb199e-9274-4950-b5c8-0fd99d90b6b1))
-    (pin "2" (uuid 29653660-40de-4e9e-b181-d7758e7ebeeb))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "R13") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "R3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 64.77 62.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 394ae2b2-670a-4118-bf79-c89ef98bc463)
-    (property "Reference" "#GND014" (at 64.77 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 64.77 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify top))
-    )
-    (property "Footprint" "" (at 64.77 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 64.77 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b6615e23-a897-4f43-9fae-a3361c549d97))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "#GND014") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "#GND01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 118.11 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 47bc6882-6399-4f06-8814-39db1ba1577e)
-    (property "Reference" "R8" (at 120.65 80.645 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "2.7K" (at 120.65 83.185 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 116.332 81.28 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 118.11 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 554076ec-6f03-48cb-aab2-b4d1169df382))
-    (pin "2" (uuid f7b74910-ae17-4ddd-919b-81d6d3d847a4))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "R8") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 111.76 76.2 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5eba98af-eb09-44fc-b0df-80e6b6f10359)
-    (property "Reference" "#PWR01" (at 115.57 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 107.95 76.835 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 111.76 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 111.76 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8af23fe1-bd51-4945-95f4-27815f1ed259))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 74.93 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6717f82a-fdf0-4aa0-860c-81ceff4a78fc)
-    (property "Reference" "#FLG01" (at 74.93 74.295 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 74.93 72.39 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 74.93 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 74.93 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 53d42938-d912-4492-862b-bff1ce75f4d6))
-    (instances
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "#FLG01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 132.08 81.28 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6a9510db-5a4b-4e5c-b335-477234f032c2)
-    (property "Reference" "R9" (at 134.62 80.645 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "2.7K" (at 134.62 83.185 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 133.858 81.28 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 132.08 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d2a05290-3fc9-4332-96a4-010b0b60ece6))
-    (pin "2" (uuid 91cffa77-1083-45c1-92a0-524590fab309))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "R9") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "R2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 59.69 41.91 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7bebbcbb-feb1-4eeb-94cf-f2dfde736d2b)
-    (property "Reference" "#PWR02" (at 63.5 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 55.88 42.545 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 59.69 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 59.69 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 58b2228c-f55c-4f2f-b669-e9f26bd2066e))
-    (instances
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "wiimote_ir_camera:Wiimote_IR_Camera") (at 156.21 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a14319ce-6b7c-47b7-b1f5-d6c8ab56ebfc)
-    (property "Reference" "U4" (at 154.305 99.06 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "~" (at 156.21 113.03 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "GUN4IR:wiimote-pixart-camera-inline" (at 156.21 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 156.21 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c5a72a19-74b1-4207-8bab-81f635fe117e))
-    (pin "2" (uuid fcceb742-1a27-4944-a759-cbdeabc362db))
-    (pin "3" (uuid 814ef36f-3968-4a11-a95e-5aad9ca46dca))
-    (pin "4" (uuid 2d7ca2bf-f842-4624-8b23-909f832ea940))
-    (pin "5" (uuid 01f47b05-1b0c-4828-86c5-f7dfe748d2c9))
-    (pin "6" (uuid c3e6c98f-f8ad-4ce5-b001-bf888bddded0))
-    (pin "7" (uuid 82163b32-74a5-4b5c-b156-00a069bc3b40))
-    (pin "8" (uuid 686cd1ef-bffe-4430-8c40-fccb0c9432d5))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "U4") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "U1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Regulator_Linear:AP2112K-3.3") (at 80.01 46.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ac340fca-aa2c-4ff5-ae43-daa58194a90b)
-    (property "Reference" "U2" (at 80.01 40.64 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "AP2112-3.3V" (at 80.01 38.1 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 80.01 38.735 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf" (at 80.01 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eb5ee962-d71c-4f72-9fad-ccb6fd11ec90))
-    (pin "2" (uuid 7165280a-9e01-4815-8126-13475411ff87))
-    (pin "3" (uuid 4c099c6b-818a-443a-a7ab-886187777a14))
-    (pin "4" (uuid 8b9cad57-ccca-4180-bf66-f90684782c73))
-    (pin "5" (uuid 66f3d46b-f5e4-482a-82a2-443596e1a6c3))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "U2") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "U2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Oscillator:SG-5032CAN") (at 166.37 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ae52c5d9-e60a-4245-a5a2-3fff6721bc0d)
-    (property "Reference" "X1" (at 173.99 80.01 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SG3225CAN 24.0000M-TJGA3" (at 184.15 82.55 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm_HandSoldering" (at 184.15 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en" (at 163.83 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fcf3140e-2721-48a6-ad3a-94983126f11d))
-    (pin "2" (uuid d0899c90-1103-49d6-8d99-9aa5879393e4))
-    (pin "3" (uuid b57d1036-e06b-4aab-89cc-03dc40083065))
-    (pin "4" (uuid a08be015-3c91-480e-bbce-941be9e36c49))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "X1") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "X1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 154.94 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cd13b086-d57c-40e5-804d-5dc5c0785212)
-    (property "Reference" "C13" (at 147.32 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0.1uF" (at 146.05 83.82 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 155.9052 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 154.94 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1b655d18-ca6d-4d3c-93ae-ac77030148f6))
-    (pin "2" (uuid 25df7ed8-96a6-4183-b9f6-873104f76fc8))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "C13") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "C1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 173.99 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d9576320-70b4-4739-a5e8-90b72dba11e7)
-    (property "Reference" "#GND014" (at 173.99 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 173.99 93.98 0)
-      (effects (font (size 1.27 1.27)) (justify top))
-    )
-    (property "Footprint" "" (at 173.99 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 173.99 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 19c4d701-a7f6-4dc9-86d2-d9993ee02aa6))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "#GND014") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "#GND02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 76.2 88.9 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e4255a31-048e-4d43-b6ff-3ee26e37c1f7)
-    (property "Reference" "#GND014" (at 76.2 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 78.74 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify top))
-    )
-    (property "Footprint" "" (at 76.2 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 76.2 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 921e5e67-7223-414f-addc-0bd691842a60))
-    (instances
-      (project "promicro-scorpion2"
-        (path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
-          (reference "#GND014") (unit 1)
-        )
-      )
-      (project "wiimote-ir-sensor-inline"
-        (path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-          (reference "#GND03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8863941e-bc94-45df-82a4-2b6eb6c570e3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Oscillator:SG-5032CAN"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SG-5032CAN"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm"
+				(at 17.78 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CMOS Clock Oscillator 1 to 75 MHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Crystal Clock Oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Oscillator*SMD*SeikoEpson*SG8002LB*5.0x3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SG-5032CAN_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762)
+						(xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SG-5032CAN_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~{ST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:AP2112K-3.3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP2112K-3.3"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23?5*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP2112K-3.3_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2112K-3.3_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "wiimote_ir_camera:Wiimote_IR_Camera"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Wiimote_IR_Camera_0_1"
+				(rectangle
+					(start -6.35 12.7)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Wiimote_IR_Camera_1_1"
+				(pin power_in line
+					(at -8.89 11.43 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -6.35 0)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 74.93 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0079e69e-219a-4416-8bc2-ba5a1bb0d18f")
+	)
+	(junction
+		(at 64.77 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "186b4065-b131-4347-8477-74d008150b0f")
+	)
+	(junction
+		(at 147.32 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2085581c-b152-4b86-bca7-cd205c734e4c")
+	)
+	(junction
+		(at 135.89 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25d953e7-118d-4009-b71e-e8480086e85a")
+	)
+	(junction
+		(at 74.93 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "302fe15f-347c-4b0b-97a2-5a87384a7b27")
+	)
+	(junction
+		(at 154.94 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c70cb5f-c9e1-4809-88d7-02af0993446c")
+	)
+	(junction
+		(at 132.08 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e7c4c89-4e2d-48ee-ac04-dd194d7b7360")
+	)
+	(junction
+		(at 132.08 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41a322dc-1f7a-4dc1-9779-45f62700674d")
+	)
+	(junction
+		(at 80.01 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d9b70e2-103c-4f77-a83f-8fa3fc3097a3")
+	)
+	(junction
+		(at 90.17 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e3562c3-c597-4d3f-886c-8c8dcd6c7073")
+	)
+	(junction
+		(at 154.94 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a58eaa5b-eb3b-4b81-9ae5-7713687b810e")
+	)
+	(junction
+		(at 64.77 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a683f0fd-6576-45fc-bed0-9d54ffc58c82")
+	)
+	(junction
+		(at 118.11 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf7403f8-762e-4b06-b997-2d347bc018ee")
+	)
+	(junction
+		(at 166.37 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5b873d3-ede9-4083-b0d2-118e7999b6ed")
+	)
+	(junction
+		(at 118.11 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9944a18-b816-4585-baa3-18849456bd3d")
+	)
+	(junction
+		(at 64.77 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d457c04d-02cb-4711-a756-7336ffb652f9")
+	)
+	(junction
+		(at 114.3 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecc27b33-bedd-4f5e-8b4f-425fcb59c02c")
+	)
+	(no_connect
+		(at 158.75 83.82)
+		(uuid "afabc245-9153-405c-9ae7-80dce8b22e6e")
+	)
+	(wire
+		(pts
+			(xy 72.39 78.74) (xy 72.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de9eb17-4a2f-42fa-afff-2b5202638975")
+	)
+	(wire
+		(pts
+			(xy 118.11 76.2) (xy 118.11 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111c460b-d46f-46b8-bd4d-73ffe70bb68c")
+	)
+	(wire
+		(pts
+			(xy 154.94 86.36) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1246276c-1973-4ce0-8d37-bfe27efb0d74")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16314c1f-00bf-4bd6-9fc6-d8008f850a67")
+	)
+	(wire
+		(pts
+			(xy 64.77 46.99) (xy 64.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1926c90e-fc3b-4172-b621-54b8426bf1f4")
+	)
+	(wire
+		(pts
+			(xy 142.24 116.84) (xy 147.32 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a422f1f-0f97-49d3-9b70-b5567ce737c1")
+	)
+	(wire
+		(pts
+			(xy 90.17 44.45) (xy 90.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a63fcc5-6637-4070-9aa8-2cc1fb607bd5")
+	)
+	(wire
+		(pts
+			(xy 74.93 76.2) (xy 76.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2043b573-f1e7-4ecc-968f-be3b0a4dcdfa")
+	)
+	(wire
+		(pts
+			(xy 135.89 91.44) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ff58a4-dd17-420f-b722-30ae0fad5ab5")
+	)
+	(wire
+		(pts
+			(xy 80.01 54.61) (xy 80.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273344a9-15bc-4854-8883-2cdcd71de48e")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2961637a-3982-45b1-95be-8e0c14164e94")
+	)
+	(wire
+		(pts
+			(xy 90.17 54.61) (xy 90.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bfec32f-5a0c-45b3-8d9c-1086bbdba1b6")
+	)
+	(wire
+		(pts
+			(xy 69.85 78.74) (xy 72.39 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fc7180-a348-4c03-b9b1-6d3695b6b163")
+	)
+	(wire
+		(pts
+			(xy 182.88 125.73) (xy 142.24 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ddf40c-c894-48bf-9ae8-cf24527b5fd5")
+	)
+	(wire
+		(pts
+			(xy 64.77 57.15) (xy 64.77 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3406147e-584e-4e93-9cd7-8adcb2437908")
+	)
+	(wire
+		(pts
+			(xy 111.76 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0f133d-58a6-4288-958d-e5220691cc01")
+	)
+	(wire
+		(pts
+			(xy 72.39 86.36) (xy 72.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e3dae5-2b41-4570-8917-9037bedc2c91")
+	)
+	(wire
+		(pts
+			(xy 154.94 91.44) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c074bb-7ba0-4ef7-8515-bf8d6b2b973a")
+	)
+	(wire
+		(pts
+			(xy 163.83 95.25) (xy 163.83 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42371a39-9b09-44ed-9e29-0b265744527b")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 166.37 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440d6371-eea9-4296-b465-c2c89a692edd")
+	)
+	(wire
+		(pts
+			(xy 74.93 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46cf3500-6b45-4026-afc0-071de87ceeae")
+	)
+	(wire
+		(pts
+			(xy 69.85 83.82) (xy 72.39 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47be9fe5-f14f-4d22-bae5-8178a2023a32")
+	)
+	(wire
+		(pts
+			(xy 163.83 123.19) (xy 147.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560e6c2c-71d2-4b23-a46f-5cbe2a018621")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 118.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df3b354-7460-447b-9b01-d6dac44c8c87")
+	)
+	(wire
+		(pts
+			(xy 132.08 111.76) (xy 147.32 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea49e5d-06db-4bd6-ae61-b4fb2acbaaef")
+	)
+	(wire
+		(pts
+			(xy 135.89 104.14) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a993461-dd24-4978-83d8-ae96428a2fc4")
+	)
+	(wire
+		(pts
+			(xy 72.39 44.45) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5ada5c-c36f-40ad-9557-6b2b4c2ce7d6")
+	)
+	(wire
+		(pts
+			(xy 147.32 95.25) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74995f95-bd0f-443d-9acf-b885ef6b5cd6")
+	)
+	(wire
+		(pts
+			(xy 182.88 83.82) (xy 182.88 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ada4bba-6f29-41f3-9208-be55e7d0fb9d")
+	)
+	(wire
+		(pts
+			(xy 166.37 91.44) (xy 173.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804c9f11-7568-462a-b8d8-bcb9197b6499")
+	)
+	(wire
+		(pts
+			(xy 72.39 76.2) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879044e4-23d2-4c15-959a-556549570d99")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c43d78-8391-4e85-b6ba-6d7c7655a71b")
+	)
+	(wire
+		(pts
+			(xy 128.27 111.76) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a331d1-b4dc-4ab9-a93c-c1ed4a0d31db")
+	)
+	(wire
+		(pts
+			(xy 69.85 81.28) (xy 72.39 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac275c1-377f-4a1b-901e-0bb1e93f7379")
+	)
+	(wire
+		(pts
+			(xy 64.77 46.99) (xy 72.39 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc20d9a-1c23-4b67-94d9-f6b1aa133a32")
+	)
+	(wire
+		(pts
+			(xy 69.85 86.36) (xy 72.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f38846-0b8f-4560-b497-ade4e0076c68")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 132.08 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c3bf28-5837-4209-98b4-85e145a1e65c")
+	)
+	(wire
+		(pts
+			(xy 118.11 85.09) (xy 118.11 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eac7241-07ed-4ba7-886d-5346964af37d")
+	)
+	(wire
+		(pts
+			(xy 173.99 83.82) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a296da82-d000-4d2b-a77a-77c143fe112e")
+	)
+	(wire
+		(pts
+			(xy 118.11 76.2) (xy 132.08 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d9d6c7-71b0-4089-aefa-88543d3640da")
+	)
+	(wire
+		(pts
+			(xy 80.01 57.15) (xy 64.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b5b497-56e2-4a47-b4a1-942b20e6b8ca")
+	)
+	(wire
+		(pts
+			(xy 163.83 113.03) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c051f3-07f0-4ca9-a318-2f9a775dcdf3")
+	)
+	(wire
+		(pts
+			(xy 72.39 88.9) (xy 74.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39e0a77-75e0-469b-8fdf-b820e6ace901")
+	)
+	(wire
+		(pts
+			(xy 135.89 104.14) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b488e7f4-c0d6-48bc-a9bb-a0fd4e29389d")
+	)
+	(wire
+		(pts
+			(xy 59.69 41.91) (xy 64.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6a8571-1634-48ca-a001-bee0c900c9fe")
+	)
+	(wire
+		(pts
+			(xy 147.32 119.38) (xy 147.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd897504-4634-4c4e-bd4a-76f538207e86")
+	)
+	(wire
+		(pts
+			(xy 64.77 41.91) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be823568-51a0-4409-bec6-1fd1bfc628dc")
+	)
+	(wire
+		(pts
+			(xy 118.11 114.3) (xy 147.32 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13fed04-7b2c-4634-88e3-153a0e37825c")
+	)
+	(wire
+		(pts
+			(xy 90.17 57.15) (xy 80.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b3882c-a72b-45bd-8ad0-86742080d20d")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1e1f6b-84d9-454f-87d1-55ea259f38f8")
+	)
+	(wire
+		(pts
+			(xy 90.17 44.45) (xy 92.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00ee5b3-8b4d-4ddc-a59b-223c11e83ffc")
+	)
+	(wire
+		(pts
+			(xy 135.89 106.68) (xy 135.89 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f989b9-fd24-4b55-a9dd-e4e1be7c032e")
+	)
+	(wire
+		(pts
+			(xy 64.77 41.91) (xy 64.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d368bf26-4e02-4804-ae04-aa5c3c011e33")
+	)
+	(wire
+		(pts
+			(xy 132.08 111.76) (xy 132.08 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d557dca4-0ec4-49dd-855a-51889b2bab5a")
+	)
+	(wire
+		(pts
+			(xy 142.24 125.73) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7220343-572a-466f-9240-f0a3386555a4")
+	)
+	(wire
+		(pts
+			(xy 147.32 106.68) (xy 135.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e681e6b1-9420-484f-a4b0-d30d56f25e4a")
+	)
+	(wire
+		(pts
+			(xy 87.63 44.45) (xy 90.17 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78dbb43-f9e1-47ea-bf39-c3a4e500f84c")
+	)
+	(wire
+		(pts
+			(xy 113.03 114.3) (xy 118.11 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb015658-e712-44b2-9811-bea14c408883")
+	)
+	(wire
+		(pts
+			(xy 147.32 95.25) (xy 163.83 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed89b121-128a-41c6-af22-b74dcad38249")
+	)
+	(label "SDA"
+		(at 113.03 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a62a863-11c9-4f43-9948-dccb1ba81847")
+	)
+	(label "SDA"
+		(at 72.39 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a4a44fc-e53a-4810-8a73-274f7a12dadf")
+	)
+	(label "SCL"
+		(at 72.39 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86119f8d-33b3-45d3-83f1-a67d3ca6a8df")
+	)
+	(label "CLK"
+		(at 182.88 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acc422ad-1716-458b-aeca-00a15d29223b")
+	)
+	(label "SCL"
+		(at 128.27 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c16241e9-578d-4cd7-85f7-5bb9fd7fca63")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 90.17 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a541b2e-a97b-4e67-b7dd-511967db6198")
+		(property "Reference" "C12"
+			(at 93.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 93.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 91.1352 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5644613a-9845-4aed-abf2-5b7e010e5263")
+		)
+		(pin "2"
+			(uuid "78103b7d-5e04-4e52-82b1-fde7e162dc97")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 74.93 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1746b0ed-d482-4d30-978e-1d2f7155f1d5")
+		(property "Reference" "#FLG02"
+			(at 74.93 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9da6cd8f-2664-4140-9a94-1de691bbd9af")
+		)
+		(instances
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 76.2 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17d814b2-64fe-46bd-b300-33821261c183")
+		(property "Reference" "#PWR03"
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 80.01 76.835 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bbaba4f-fac2-4d72-8255-0a08022d7fd6")
+		)
+		(instances
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 64.77 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d8ecea5-7916-45fc-aeb5-5d1b58ed97f2")
+		(property "Reference" "J1"
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 68.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 64.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d5aa69a-2d90-49a5-97a2-cb6be86e7b53")
+		)
+		(pin "2"
+			(uuid "3ae1e56e-8bbc-47ed-ba1e-c92a2cef8500")
+		)
+		(pin "3"
+			(uuid "2e327697-e2af-4ee1-92fa-ee0c79456478")
+		)
+		(pin "4"
+			(uuid "7898daf1-1470-469e-b912-c7227b99d21c")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 92.71 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26f63e22-3715-479c-b62a-45dffc2f9317")
+		(property "Reference" "#PWR01"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 96.52 45.085 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "169550ff-80da-4d1f-ab77-b461e50edd74")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "337767e8-6de5-4660-81ce-89f7bff743d2")
+		(property "Reference" "C11"
+			(at 68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 65.7352 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1817cf8d-0881-4d6a-9007-13db154ccdee")
+		)
+		(pin "2"
+			(uuid "fe89a7a0-dac1-4532-8001-5eb64c5ddb38")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36435fab-e191-4d86-b545-d26e196baac9")
+		(property "Reference" "R13"
+			(at 166.37 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33K"
+			(at 166.37 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 162.052 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6edb199e-9274-4950-b5c8-0fd99d90b6b1")
+		)
+		(pin "2"
+			(uuid "29653660-40de-4e9e-b181-d7758e7ebeeb")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.77 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "394ae2b2-670a-4118-bf79-c89ef98bc463")
+		(property "Reference" "#GND014"
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6615e23-a897-4f43-9fae-a3361c549d97")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "#GND014")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47bc6882-6399-4f06-8814-39db1ba1577e")
+		(property "Reference" "R8"
+			(at 120.65 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.7K"
+			(at 120.65 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 116.332 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "554076ec-6f03-48cb-aab2-b4d1169df382")
+		)
+		(pin "2"
+			(uuid "f7b74910-ae17-4ddd-919b-81d6d3d847a4")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 111.76 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eba98af-eb09-44fc-b0df-80e6b6f10359")
+		(property "Reference" "#PWR01"
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 107.95 76.835 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8af23fe1-bd51-4945-95f4-27815f1ed259")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 74.93 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6717f82a-fdf0-4aa0-860c-81ceff4a78fc")
+		(property "Reference" "#FLG01"
+			(at 74.93 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 74.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53d42938-d912-4492-862b-bff1ce75f4d6")
+		)
+		(instances
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a9510db-5a4b-4e5c-b335-477234f032c2")
+		(property "Reference" "R9"
+			(at 134.62 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.7K"
+			(at 134.62 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 133.858 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2a05290-3fc9-4332-96a4-010b0b60ece6")
+		)
+		(pin "2"
+			(uuid "91cffa77-1083-45c1-92a0-524590fab309")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 59.69 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bebbcbb-feb1-4eeb-94cf-f2dfde736d2b")
+		(property "Reference" "#PWR02"
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 55.88 42.545 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58b2228c-f55c-4f2f-b669-e9f26bd2066e")
+		)
+		(instances
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "wiimote_ir_camera:Wiimote_IR_Camera")
+		(at 156.21 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a14319ce-6b7c-47b7-b1f5-d6c8ab56ebfc")
+		(property "Reference" "U4"
+			(at 154.305 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 156.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GUN4IR:wiimote-pixart-camera-inline"
+			(at 156.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5a72a19-74b1-4207-8bab-81f635fe117e")
+		)
+		(pin "2"
+			(uuid "fcceb742-1a27-4944-a759-cbdeabc362db")
+		)
+		(pin "3"
+			(uuid "814ef36f-3968-4a11-a95e-5aad9ca46dca")
+		)
+		(pin "4"
+			(uuid "2d7ca2bf-f842-4624-8b23-909f832ea940")
+		)
+		(pin "5"
+			(uuid "01f47b05-1b0c-4828-86c5-f7dfe748d2c9")
+		)
+		(pin "6"
+			(uuid "c3e6c98f-f8ad-4ce5-b001-bf888bddded0")
+		)
+		(pin "7"
+			(uuid "82163b32-74a5-4b5c-b156-00a069bc3b40")
+		)
+		(pin "8"
+			(uuid "686cd1ef-bffe-4430-8c40-fccb0c9432d5")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2112K-3.3")
+		(at 80.01 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac340fca-aa2c-4ff5-ae43-daa58194a90b")
+		(property "Reference" "U2"
+			(at 80.01 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112-3.3V"
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 80.01 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb5ee962-d71c-4f72-9fad-ccb6fd11ec90")
+		)
+		(pin "2"
+			(uuid "7165280a-9e01-4815-8126-13475411ff87")
+		)
+		(pin "3"
+			(uuid "4c099c6b-818a-443a-a7ab-886187777a14")
+		)
+		(pin "4"
+			(uuid "8b9cad57-ccca-4180-bf66-f90684782c73")
+		)
+		(pin "5"
+			(uuid "66f3d46b-f5e4-482a-82a2-443596e1a6c3")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Oscillator:SG-5032CAN")
+		(at 166.37 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae52c5d9-e60a-4245-a5a2-3fff6721bc0d")
+		(property "Reference" "X1"
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SG3225CAN 24.0000M-TJGA3"
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm_HandSoldering"
+			(at 184.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcf3140e-2721-48a6-ad3a-94983126f11d")
+		)
+		(pin "2"
+			(uuid "d0899c90-1103-49d6-8d99-9aa5879393e4")
+		)
+		(pin "3"
+			(uuid "b57d1036-e06b-4aab-89cc-03dc40083065")
+		)
+		(pin "4"
+			(uuid "a08be015-3c91-480e-bbce-941be9e36c49")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd13b086-d57c-40e5-804d-5dc5c0785212")
+		(property "Reference" "C13"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 155.9052 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b655d18-ca6d-4d3c-93ae-ac77030148f6")
+		)
+		(pin "2"
+			(uuid "25df7ed8-96a6-4183-b9f6-873104f76fc8")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9576320-70b4-4739-a5e8-90b72dba11e7")
+		(property "Reference" "#GND014"
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19c4d701-a7f6-4dc9-86d2-d9993ee02aa6")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "#GND014")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4255a31-048e-4d43-b6ff-3ee26e37c1f7")
+		(property "Reference" "#GND014"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "921e5e67-7223-414f-addc-0bd691842a60")
+		)
+		(instances
+			(project "promicro-scorpion2"
+				(path "/6c31d321-9235-4caf-a8f0-78fcaeeedd22"
+					(reference "#GND014")
+					(unit 1)
+				)
+			)
+			(project "wiimote-ir-sensor-inline"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "#GND03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

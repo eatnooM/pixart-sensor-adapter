@@ -129,6 +129,7 @@
 	(net 8 "/CLK")
 	(net 9 "unconnected-(U2-NC-Pad4)")
 	(net 10 "unconnected-(X1-~{ST}-Pad1)")
+	(net 11 "unconnected-(U1-NC-Pad4)_0")
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3b5308e0-447b-4494-9615-37f04d2ef91b")
@@ -146,7 +147,7 @@
 				)
 			)
 		)
-		(property "Value" "330K"
+		(property "Value" "33K"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1d19e92e-4b2c-4ee3-8afc-a9380b2abead")
@@ -157,7 +158,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -181,7 +182,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -193,7 +194,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/36435fab-e191-4d86-b545-d26e196baac9")
+		(sheetname "Root")
+		(sheetfile "wiimote-ir-sensor-inline.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -365,7 +369,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -389,7 +393,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -401,7 +405,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1d8ecea5-7916-45fc-aeb5-5d1b58ed97f2")
+		(sheetname "Root")
+		(sheetfile "wiimote-ir-sensor-inline.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 8.95)
@@ -648,7 +655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -672,7 +679,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -684,7 +691,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/6a9510db-5a4b-4e5c-b335-477234f032c2")
+		(sheetname "Root")
+		(sheetfile "wiimote-ir-sensor-inline.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -855,7 +865,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -879,7 +889,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -891,7 +901,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/47bc6882-6399-4f06-8814-39db1ba1577e")
+		(sheetname "Root")
+		(sheetfile "wiimote-ir-sensor-inline.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -1062,7 +1075,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1074,7 +1087,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1086,7 +1099,7 @@
 				)
 			)
 		)
-		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1098,7 +1111,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23?5*")
 		(path "/ac340fca-aa2c-4ff5-ae43-daa58194a90b")
+		(sheetname "Root")
+		(sheetfile "wiimote-ir-sensor-inline.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -1345,7 +1361,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm_HandSoldering"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1357,7 +1373,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1369,7 +1385,7 @@
 				)
 			)
 		)
-		(property "Description" "CMOS Clock Oscillator 1 to 75 MHz"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1381,7 +1397,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Oscillator*SMD*SeikoEpson*SG8002LB*5.0x3.2mm*")
 		(path "/ae52c5d9-e60a-4245-a5a2-3fff6721bc0d")
+		(sheetname "Root")
+		(sheetfile "wiimote-ir-sensor-inline.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -1667,7 +1686,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1691,7 +1710,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1703,7 +1722,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/cd13b086-d57c-40e5-804d-5dc5c0785212")
+		(sheetname "Root")
+		(sheetfile "wiimote-ir-sensor-inline.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.146267 -0.51)
@@ -1877,7 +1899,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1901,7 +1923,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1913,7 +1935,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/0a541b2e-a97b-4e67-b7dd-511967db6198")
+		(sheetname "Root")
+		(sheetfile "wiimote-ir-sensor-inline.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.146267 -0.51)
@@ -2087,7 +2112,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GUN4IR:wiimote-pixart-camera-inline"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2124,6 +2149,8 @@
 			)
 		)
 		(path "/a14319ce-6b7c-47b7-b1f5-d6c8ab56ebfc")
+		(sheetname "Root")
+		(sheetfile "wiimote-ir-sensor-inline.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.7 -2.05)
@@ -2283,7 +2310,7 @@
 			(at -0.45 -2.5 180)
 			(size 0.6 3.5)
 			(layers "B.Cu" "B.Mask")
-			(net 7 "unconnected-(U1-NC-Pad4)")
+			(net 11 "unconnected-(U1-NC-Pad4)_0")
 			(pinfunction "NC")
 			(pintype "no_connect")
 			(uuid "cfef944c-41c2-4190-9626-817681e678a7")
@@ -2391,7 +2418,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2415,7 +2442,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2427,7 +2454,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/337767e8-6de5-4660-81ce-89f7bff743d2")
+		(sheetname "Root")
+		(sheetfile "wiimote-ir-sensor-inline.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.146267 -0.51)
