@@ -39,7 +39,7 @@
         "pads": {
           "drill": 0.65,
           "height": 3.0,
-          "width": 2.0
+          "width": 1.75
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,

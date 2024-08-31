@@ -2389,7 +2389,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 76.2 76.2 270)
+		(at 76.2 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2398,7 +2398,7 @@
 		(fields_autoplaced yes)
 		(uuid "17d814b2-64fe-46bd-b300-33821261c183")
 		(property "Reference" "#PWR03"
-			(at 72.39 76.2 0)
+			(at 72.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2407,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 80.01 76.835 90)
+			(at 80.01 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 76.2 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 76.2 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2434,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 76.2 0)
+			(at 76.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2832,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 81.28 0)
+		(at 132.08 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2841,7 +2841,7 @@
 		(fields_autoplaced yes)
 		(uuid "47bc6882-6399-4f06-8814-39db1ba1577e")
 		(property "Reference" "R8"
-			(at 120.65 80.645 0)
+			(at 134.62 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2850,7 @@
 			)
 		)
 		(property "Value" "2.7K"
-			(at 120.65 83.185 0)
+			(at 134.62 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2859,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 116.332 81.28 90)
+			(at 130.302 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +2868,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 81.28 0)
+			(at 132.08 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +2877,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 81.28 0)
+			(at 132.08 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3047,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 81.28 180)
+		(at 118.11 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3056,7 +3056,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a9510db-5a4b-4e5c-b335-477234f032c2")
 		(property "Reference" "R9"
-			(at 134.62 80.645 0)
+			(at 120.65 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3065,7 @@
 			)
 		)
 		(property "Value" "2.7K"
-			(at 134.62 83.185 0)
+			(at 120.65 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3074,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 133.858 81.28 90)
+			(at 119.888 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3083,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 81.28 0)
+			(at 118.11 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 81.28 0)
+			(at 118.11 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +3590,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 88.9 90)
+		(at 76.2 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3598,7 +3598,7 @@
 		(dnp no)
 		(uuid "e4255a31-048e-4d43-b6ff-3ee26e37c1f7")
 		(property "Reference" "#GND014"
-			(at 76.2 88.9 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +3607,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 88.9 0)
+			(at 78.74 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +3616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 88.9 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 88.9 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3634,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 88.9 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
