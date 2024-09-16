@@ -1,4 +1,4 @@
-(footprint "wiimote-pixart-camera-inline"
+(footprint "wiimote-pixart-camera-inline-castellated"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "wiimote-pixart-camera-inline"
+	(property "Value" "wiimote-pixart-camera-inline-castellated"
 		(at -0.05 -0.505 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4641b9a3-ac60-4766-9284-68f5063a4377")
+		(uuid "5caa5a68-aea1-45fd-b0e7-b9bda4992fc2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4526507f-886d-419e-93b8-87157f2121af")
+		(uuid "1d6f915c-5771-4486-8fb7-b216a6dbbea3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7f98c686-c09a-4db6-a171-dee048289f7f")
+		(uuid "eb143afe-7865-4680-9fac-80795806b991")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -150,17 +150,34 @@
 			)
 		)
 	)
+	(pad "1" thru_hole circle
+		(at -3.15 2.5)
+		(size 0.6 0.6)
+		(drill 0.346)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "873d8f98-ed69-4f03-91a4-1017d284639d")
+	)
 	(pad "1" connect rect
 		(at -3.15 2.5)
 		(size 0.6 3.5)
 		(layers "F.Cu" "F.Mask")
-		(uuid "9de80199-6516-4b01-b9d2-79ef7318ab5e")
+		(uuid "b14fc8d6-5006-465f-bf57-0840371aee26")
 	)
 	(pad "1" connect rect
 		(at -3.15 2.5)
 		(size 0.6 3.5)
 		(layers "B.Cu" "B.Mask")
-		(uuid "b14fc8d6-5006-465f-bf57-0840371aee26")
+		(uuid "9de80199-6516-4b01-b9d2-79ef7318ab5e")
+	)
+	(pad "2" thru_hole circle
+		(at -2.25 2.5)
+		(size 0.6 0.6)
+		(drill 0.346)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 0)
+		(uuid "d3044a70-b63b-43d3-a9f1-722a4558b7d4")
 	)
 	(pad "2" connect rect
 		(at -2.25 2.5)
@@ -176,6 +193,15 @@
 		(zone_connect 0)
 		(uuid "519a83ab-4c63-4a17-b21d-749cbf5fcafd")
 	)
+	(pad "3" thru_hole circle
+		(at -1.35 2.5)
+		(size 0.6 0.6)
+		(drill 0.346)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 0)
+		(uuid "90abc864-dce1-48cd-8f4e-276a689db807")
+	)
 	(pad "3" connect rect
 		(at -1.35 2.5)
 		(size 0.6 3.5)
@@ -190,6 +216,14 @@
 		(zone_connect 0)
 		(uuid "a1c9ff4c-93f5-40e4-950f-6e85f793dc1f")
 	)
+	(pad "4" thru_hole circle
+		(at -0.45 2.5)
+		(size 0.6 0.6)
+		(drill 0.346)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "58482b2a-449e-42ca-9d37-7338d2c3e0a0")
+	)
 	(pad "4" connect rect
 		(at -0.45 2.5)
 		(size 0.6 3.5)
@@ -201,6 +235,14 @@
 		(size 0.6 3.5)
 		(layers "B.Cu" "B.Mask")
 		(uuid "f5c6eea4-94a1-4700-8ff4-1e63ca34054e")
+	)
+	(pad "5" thru_hole circle
+		(at 0.45 2.5)
+		(size 0.6 0.6)
+		(drill 0.346)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "51f90fff-78ca-47d7-b2df-1cbf17c81102")
 	)
 	(pad "5" connect rect
 		(at 0.45 2.5)
@@ -214,17 +256,33 @@
 		(layers "B.Cu" "B.Mask")
 		(uuid "808084f5-dbd0-4eba-8a89-118cdb41778c")
 	)
+	(pad "6" thru_hole circle
+		(at 1.35 2.5)
+		(size 0.6 0.6)
+		(drill 0.346)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d45968b3-acb3-467c-a87d-0bd7670aba73")
+	)
 	(pad "6" connect rect
 		(at 1.35 2.5)
 		(size 0.6 3.5)
 		(layers "F.Cu" "F.Mask")
-		(uuid "0d98e680-fd1e-4d1f-a180-bf5bdd70fc16")
+		(uuid "6c20a951-e28c-47fd-99b0-01c3a3d1094c")
 	)
 	(pad "6" connect rect
 		(at 1.35 2.5)
 		(size 0.6 3.5)
 		(layers "B.Cu" "B.Mask")
-		(uuid "6c20a951-e28c-47fd-99b0-01c3a3d1094c")
+		(uuid "0d98e680-fd1e-4d1f-a180-bf5bdd70fc16")
+	)
+	(pad "7" thru_hole circle
+		(at 2.25 2.5)
+		(size 0.6 0.6)
+		(drill 0.346)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e054271-573e-4dad-97f9-39b22ca898e5")
 	)
 	(pad "7" connect rect
 		(at 2.25 2.5)
@@ -237,6 +295,14 @@
 		(size 0.6 3.5)
 		(layers "B.Cu" "B.Mask")
 		(uuid "b9f9a9af-e8d8-46e4-87ef-393491a2b76f")
+	)
+	(pad "8" thru_hole circle
+		(at 3.15 2.5)
+		(size 0.6 0.6)
+		(drill 0.346)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9bc12d0-9b3e-4f7d-bb86-36e2a4ac4888")
 	)
 	(pad "8" connect rect
 		(at 3.15 2.5)

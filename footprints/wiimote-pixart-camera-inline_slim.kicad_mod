@@ -1,4 +1,4 @@
-(footprint "wiimote-pixart-camera-inline"
+(footprint "wiimote-pixart-camera-inline_slim"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "wiimote-pixart-camera-inline"
+	(property "Value" "wiimote-pixart-camera-inline_slim"
 		(at -0.05 -0.505 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,62 +62,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -4.7 -1.5)
-		(end -4.7 2.05)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "d40f37d9-aea8-4c0a-bdc7-512b1f9c1baa")
-	)
-	(fp_line
-		(start 4.25 2.5)
-		(end -4.25 2.5)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "e45cf7df-53d1-4ad3-a3b6-3f62e950e3c0")
-	)
-	(fp_line
-		(start 4.7 -1.5)
-		(end 4.7 2.05)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c5964e12-8a5a-45c5-8535-bcdef7adff7a")
-	)
-	(fp_arc
-		(start -4.25 2.5)
-		(mid -4.568198 2.368198)
-		(end -4.7 2.05)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f1a2625f-9b74-4a52-83a4-0261a711393c")
-	)
-	(fp_arc
-		(start 4.7 2.05)
-		(mid 4.568198 2.368198)
-		(end 4.25 2.5)
-		(stroke
-			(width 0.25)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "17350ea4-abb6-4201-abaf-b9f9262bdadf")
-	)
 	(fp_rect
 		(start -4.9 -1.555)
 		(end 4.9 2.645)

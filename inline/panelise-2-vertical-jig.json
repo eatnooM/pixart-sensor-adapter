@@ -1,0 +1,16 @@
+{
+    "layout": {
+        "alternation": "rows",
+        "rotation": "180deg",
+        "rows": "2"
+    },
+    "source": {
+        "tolerance": "10mm"
+    },
+    "tabs": {
+        "type": "annotation"
+    },
+    "cuts": {
+        "type": "mousebites"
+    }
+}
