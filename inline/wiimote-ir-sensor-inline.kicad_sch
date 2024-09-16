@@ -504,6 +504,187 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Oscillator:SG-5032CAN"
 			(pin_names
 				(offset 0.254)
@@ -1283,6 +1464,126 @@
 				)
 			)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "wiimote_ir_camera:Wiimote_IR_Camera"
 			(pin_names
 				(offset 0.5)
@@ -1591,10 +1892,22 @@
 		(uuid "d457c04d-02cb-4711-a756-7336ffb652f9")
 	)
 	(junction
+		(at 69.85 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da5f8e60-2b1d-4a5e-8eae-a8798647ee68")
+	)
+	(junction
 		(at 114.3 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecc27b33-bedd-4f5e-8b4f-425fcb59c02c")
+	)
+	(junction
+		(at 91.44 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa8620f4-31f1-4c15-b3cb-0cccc3046087")
 	)
 	(no_connect
 		(at 158.75 83.82)
@@ -1702,6 +2015,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 34.29) (xy 74.93 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2940adea-c536-4d67-b8b1-be6c2810272d")
+	)
+	(wire
+		(pts
 			(xy 114.3 101.6) (xy 147.32 101.6)
 		)
 		(stroke
@@ -1709,6 +2032,16 @@
 			(type default)
 		)
 		(uuid "2961637a-3982-45b1-95be-8e0c14164e94")
+	)
+	(wire
+		(pts
+			(xy 91.44 44.45) (xy 92.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a610e05-76f5-4ebe-863e-c956199375ce")
 	)
 	(wire
 		(pts
@@ -1952,6 +2285,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 34.29) (xy 91.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9c96de-c809-4d36-85b9-637372357353")
+	)
+	(wire
+		(pts
 			(xy 69.85 86.36) (xy 72.39 86.36)
 		)
 		(stroke
@@ -2042,6 +2385,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 34.29) (xy 91.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a7edbc-0beb-4ea8-813a-fbe5912b30b7")
+	)
+	(wire
+		(pts
 			(xy 59.69 41.91) (xy 64.77 41.91)
 		)
 		(stroke
@@ -2062,7 +2415,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 41.91) (xy 72.39 41.91)
+			(xy 64.77 41.91) (xy 69.85 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2102,7 +2455,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 44.45) (xy 92.71 44.45)
+			(xy 90.17 44.45) (xy 91.44 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2172,6 +2525,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 41.91) (xy 69.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91f8a4d-5017-4f47-89fc-df51702f9840")
+	)
+	(wire
+		(pts
 			(xy 113.03 114.3) (xy 118.11 114.3)
 		)
 		(stroke
@@ -2190,6 +2553,16 @@
 		)
 		(uuid "ed89b121-128a-41c6-af22-b74dcad38249")
 	)
+	(wire
+		(pts
+			(xy 69.85 41.91) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8484c20-4c82-4ccd-8f97-1ef3443e921c")
+	)
 	(label "SDA"
 		(at 113.03 114.3 180)
 		(fields_autoplaced yes)
@@ -2202,7 +2575,7 @@
 		(uuid "1a62a863-11c9-4f43-9948-dccb1ba81847")
 	)
 	(label "SDA"
-		(at 72.39 83.82 0)
+		(at 72.39 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2213,7 +2586,7 @@
 		(uuid "6a4a44fc-e53a-4810-8a73-274f7a12dadf")
 	)
 	(label "SCL"
-		(at 72.39 81.28 0)
+		(at 72.39 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2292,6 +2665,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 90.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C519560"
 			(at 90.17 50.8 0)
 			(effects
 				(font
@@ -2388,73 +2770,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 76.2 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17d814b2-64fe-46bd-b300-33821261c183")
-		(property "Reference" "#PWR03"
-			(at 72.39 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 80.01 76.835 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1bbaba4f-fac2-4d72-8255-0a08022d7fd6")
-		)
-		(instances
-			(project "wiimote-ir-sensor-inline"
-				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 64.77 81.28 0)
 		(unit 1)
@@ -2479,7 +2794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
 			(at 64.77 81.28 0)
 			(effects
 				(font
@@ -2607,6 +2922,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 78.74 34.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31a9bd64-87e8-47f2-ab6f-91439d9967da")
+		(property "Reference" "JP1"
+			(at 78.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62e05ca2-3e58-4974-8893-2aa278913987")
+		)
+		(pin "1"
+			(uuid "3b487b29-f86f-47ee-97ce-a6522acf0d3d")
+		)
+		(instances
+			(project ""
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 64.77 53.34 0)
 		(unit 1)
@@ -2653,6 +3036,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 64.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C519560"
 			(at 64.77 53.34 0)
 			(effects
 				(font
@@ -2729,6 +3121,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C126359"
 			(at 163.83 109.22 0)
 			(effects
 				(font
@@ -2877,6 +3278,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 118.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114612"
 			(at 118.11 81.28 0)
 			(effects
 				(font
@@ -3100,6 +3510,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C114612"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2a05290-3fc9-4332-96a4-010b0b60ece6")
 		)
@@ -3140,7 +3559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 55.88 42.545 90)
 			(effects
 				(font
@@ -3214,7 +3633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GUN4IR:wiimote-pixart-camera-inline"
+		(property "Footprint" "GUN4IR:wiimote-pixart-camera-inline_slim"
 			(at 156.21 113.03 0)
 			(effects
 				(font
@@ -3332,6 +3751,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C51118"
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb5ee962-d71c-4f72-9fad-ccb6fd11ec90")
 		)
@@ -3414,6 +3842,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5203548"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcf3140e-2721-48a6-ad3a-94983126f11d")
 		)
@@ -3487,6 +3924,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 154.94 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 154.94 82.55 0)
 			(effects
 				(font
@@ -3589,16 +4035,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 88.9 90)
+		(lib_id "power:VCC")
+		(at 76.2 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e4255a31-048e-4d43-b6ff-3ee26e37c1f7")
-		(property "Reference" "#GND014"
-			(at 76.2 88.9 0)
+		(fields_autoplaced yes)
+		(uuid "d9ed385f-a1db-4c87-ab67-f4232fc615de")
+		(property "Reference" "#PWR05"
+			(at 72.39 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,13 +4053,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 78.74 88.9 0)
+		(property "Value" "VCC"
+			(at 80.01 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify top)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3633,8 +4080,74 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e657d8f8-9fe6-4bd1-8b3e-2276a404e603")
+		)
+		(instances
+			(project ""
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4255a31-048e-4d43-b6ff-3ee26e37c1f7")
+		(property "Reference" "#GND014"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
