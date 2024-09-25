@@ -503,6 +503,10 @@
       {
         "netclass": "smol",
         "pattern": "/CLK"
+      },
+      {
+        "netclass": "smol",
+        "pattern": "/Net - (U1 - RESET)"
       }
     ]
   },
