@@ -504,6 +504,187 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Oscillator:SG-5032CAN"
 			(pin_names
 				(offset 0.254)
@@ -1567,6 +1748,18 @@
 		(uuid "a683f0fd-6576-45fc-bed0-9d54ffc58c82")
 	)
 	(junction
+		(at 69.85 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8ea118f-596e-49ee-b334-a33a2bdf49e1")
+	)
+	(junction
+		(at 91.44 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc2661ae-16ed-4f4f-804e-b89e2907b07a")
+	)
+	(junction
 		(at 118.11 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1699,6 +1892,16 @@
 			(type default)
 		)
 		(uuid "273344a9-15bc-4854-8883-2cdcd71de48e")
+	)
+	(wire
+		(pts
+			(xy 91.44 44.45) (xy 92.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ee0a8f-1917-4720-9e58-9b0692758b7c")
 	)
 	(wire
 		(pts
@@ -1932,6 +2135,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 34.29) (xy 74.93 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1c3905-7c42-4262-a40c-203e70224341")
+	)
+	(wire
+		(pts
 			(xy 69.85 81.28) (xy 72.39 81.28)
 		)
 		(stroke
@@ -1959,6 +2172,16 @@
 			(type default)
 		)
 		(uuid "91f38846-0b8f-4560-b497-ade4e0076c68")
+	)
+	(wire
+		(pts
+			(xy 69.85 41.91) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977fb67b-691e-40fe-a278-fea99866e5cf")
 	)
 	(wire
 		(pts
@@ -1999,6 +2222,16 @@
 			(type default)
 		)
 		(uuid "a4d9d6c7-71b0-4089-aefa-88543d3640da")
+	)
+	(wire
+		(pts
+			(xy 91.44 34.29) (xy 91.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51be2fd-57f4-4939-aa43-fef88fd1dd19")
 	)
 	(wire
 		(pts
@@ -2062,7 +2295,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 41.91) (xy 72.39 41.91)
+			(xy 64.77 41.91) (xy 69.85 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2079,6 +2312,16 @@
 			(type default)
 		)
 		(uuid "c13fed04-7b2c-4634-88e3-153a0e37825c")
+	)
+	(wire
+		(pts
+			(xy 69.85 41.91) (xy 69.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c84c3ef4-b571-4dd7-b362-4a3e7e91b70a")
 	)
 	(wire
 		(pts
@@ -2102,7 +2345,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 44.45) (xy 92.71 44.45)
+			(xy 90.17 44.45) (xy 91.44 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2189,6 +2432,16 @@
 			(type default)
 		)
 		(uuid "ed89b121-128a-41c6-af22-b74dcad38249")
+	)
+	(wire
+		(pts
+			(xy 82.55 34.29) (xy 91.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98a0b3e-bdc1-42e1-a1e0-24f139817e60")
 	)
 	(label "SDA"
 		(at 113.03 114.3 180)
@@ -3275,6 +3528,74 @@
 			(project "wiimote-ir-sensor"
 				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 78.74 34.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1e133a6-1cbc-433f-a854-865ffdbdc70b")
+		(property "Reference" "JP1"
+			(at 78.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "520ea5b9-1a21-424e-b68e-2426850aac41")
+		)
+		(pin "1"
+			(uuid "794d0fe5-65c5-4809-a732-89c0989f011b")
+		)
+		(instances
+			(project "wiimote-ir-sensor"
+				(path "/8863941e-bc94-45df-82a4-2b6eb6c570e3"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
