@@ -2,7 +2,7 @@
 
 ![Picture of an assembled board](https://github.com/user-attachments/assets/043c7a50-4f18-4311-9e13-b482321dc8dc)
 
-License: CC BY 4.0
+License: CC BY-SA 4.0
 
 Allows interfacing with a Wiimote camera over I2C for GUN4IR.
 
