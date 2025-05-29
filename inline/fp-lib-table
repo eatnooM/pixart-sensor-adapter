@@ -1,3 +1,4 @@
 (fp_lib_table
   (version 7)
+  (lib (name "wiimote-ir-sensor")(type "KiCad")(uri "${KIPRJMOD}/../wiimote-ir-sensor.pretty")(options "")(descr ""))
 )
