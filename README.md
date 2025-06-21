@@ -19,11 +19,13 @@ It's a pain to solder the camera module directly to the board, so I'd strongly r
 
 ### Shell
 
-If you're using the inline board, I would strongly recommend you check out [RetroMidget's camera enclosure](https://github.com/slikvik55/Lightgun3DParts/tree/main/WiiCamEnclosure). This 3D-printable enclosure is currently verified to fit the v1.0 board (but should also fit the v1.1 board - sit tight for an update on this) and enables you to install directly (such as in a GunCon 1) by simply tightening the nuts to hold it in place in the shell, or using prints such as JayBee's Gun4IR GunCon mounts ([GunCon 1](https://www.gun4ir.com/products/copy-of-gun4ir-diy-cam-and-rumble-holder-sets), [GunCon 2](https://www.gun4ir.com/products/gc1-gun4ir-diy-cam-and-rumble-holders)) to secure the camera and a fish-eye lens for use closer to your display.
+If you're using the inline board, I would strongly recommend you check out [RetroMidget's camera enclosure](https://github.com/slikvik55/Lightgun3DParts/tree/main/WiiCamEnclosure). This 3D-printable enclosure is currently verified to fit the v1.0 board (but also fit the v1.2 board as long as you omit the rear cover) and enables you to install directly (such as in a GunCon 1) by simply tightening the nuts to hold it in place in the shell, or using prints such as JayBee's Gun4IR GunCon mounts ([GunCon 1](https://www.gun4ir.com/products/copy-of-gun4ir-diy-cam-and-rumble-holder-sets), [GunCon 2](https://www.gun4ir.com/products/gc1-gun4ir-diy-cam-and-rumble-holders)) to secure the camera and a fish-eye lens for use closer to your display.
+
+I have a project to make a shell for the newer versions of this board that make use of the slimmer profile to fit in some tighter places (such as the barrel of a Blaze Scorpion 2, which is slightly too narrow for the DFRobot Gravity camera), but sit tight for news on this.
 
 ## Ordering
 
-Either download the gerbers from [the current release](https://github.com/eatnooM/pixart-sensor-adapter/releases/latest) or run off directly from OSHPark ([Inline](https://oshpark.com/shared_projects/LtYRXumG) / [Socketed](https://oshpark.com/shared_projects/FovxzPdv).
+Either download the gerbers from [the current release](https://github.com/eatnooM/pixart-sensor-adapter/releases/latest) or run off directly from OSHPark ([Inline](https://oshpark.com/shared_projects/reO6OkLE) / [Socketed](https://oshpark.com/shared_projects/FovxzPdv).
 See below for the Bill of Materials - these can be purchased from your preferred electronic component distributor but I've provided LCSC and Mouser links for convenience.
 
 ## BOM
@@ -37,6 +39,10 @@ See below for the Bill of Materials - these can be purchased from your preferred
 | U1 | Wiimote camera module – salvaged from official wiimote | Salvaged |
 | U2 | AP2112-3.3V | [LCSC](https://www.lcsc.com/product-detail/_Diodes-Incorporated-_C51118.html) / [Mouser](https://www.mouser.com/productdetail/Diodes-Incorporated/AP2112K-3.3TRG1?qs=x6A8l6qLYDDPYHosCdzh%2FA%3D%3D) |
 | X1 | 24-25MHz SMD3225 active crystal oscillator | [LCSC - YXC OT2EL4C4JI-111OLP-24M](https://www.lcsc.com/product-detail/Oscillators_YXC-OT2EL4C4JI-111OLP-24M_C5203548.html) / [Mouser - KYOCERA KC3225K24.0000C1GE00](https://www.mouser.com/ProductDetail/KYOCERA-AVX/KC3225K24.0000C1GE00?qs=rfsXwfL%252BOM9DBu9I0fBoew%3D%3D) |
+
+When using with OpenFIRE, the following amendments can be made:
+- As VCC is already 3.3V, U2, C2, and C3 can be omitted (and JP1 should be bridged to connect VCC straight to the camera)
+- OpenFIRE supports generating the 24MHz clock signal from the RP2040 directly, meaning you can wire this to the CLK and omit X1 and C1.
 
 ## Credits
 
