@@ -15,7 +15,7 @@ I've only clocked a few hours actually _using_ these, so run this off at your ow
 The inline board should be ordered in 0.8mm thickness, otherwise you won't be able to solder to the pads on the camera!
 If ordering from OSHPark, I'd recommend the panelised version as they tend to put panel tabs on the edge connectors which can make for annoying cleanup before the boards are usable.
 
-It's a pain to solder the camera module directly to the board, so I'd strongly recommend using the jig from RetroMidget's shell (see below) to aid with this, or running off [the standalone camera module jig](inline/Wii-IR-camera-solder-guideGun4IR-v7.stl) graciously provided by Gzus348.
+It's a pain to solder the camera module directly to the board, so I'd strongly recommend using the jig from RetroMidget's shell (see below) to aid with this, or running off [the standalone camera module jig](inline/printables/Wii-IR-camera-solder-guideGun4IR-v7.stl) graciously provided by Gzus348.
 
 ### Shell
 
