@@ -1,0 +1,3 @@
+[submodule "kicad-jlcpcb-libraries"]
+	path = kicad-jlcpcb-libraries
+	url = https://github.com/FutureProofHomes/kicad-jlcpcb-libraries.git
