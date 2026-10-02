@@ -23,6 +23,23 @@ If you're using the inline board, I would strongly recommend you check out [Retr
 
 I have a project to make a shell for the newer versions of this board that make use of the slimmer profile to fit in some tighter places (such as the barrel of a Blaze Scorpion 2, which is slightly too narrow for the DFRobot Gravity camera), but sit tight for news on this.
 
+### IR Pass Filter
+
+To prevent the camera from picking up visible-light sources as well as the infrared from your emitters, it is recommended to add an IR pass filter in front of the camera. This cuts down on camera erroneously detecting bright lights instead of your IR points.
+
+If salvaging from whole Wii remotes including the shell, you'll already have the IR pass filter - this is the black-coloured plastic in the front of the shell. If you got hold of a job lot of bare boards, however, you will need to purchase some filter. I've been using the filter found in [this eBay listing](https://www.ebay.co.uk/itm/397673945348) - it's nice and thin, making it easier to cut down to size and fit in a build, and 100mm x 100mm will serve for a lot of builds if you're efficient at cutting them out. If this listing isn't available for you, there are similar listings [on Aliexpress](https://www.aliexpress.com/w/wholesale-infrared-pass-filter-940nm.html). The most important aspect of the filter is that it passes 940nm wavelength your emitters (presumably) use, and ideally blocks as much of everything else as possible.
+
+To cut the filter, I'd recommend a rotary tool. If you have particularly sharp flush cutters, these can do the job if you're careful but I've had these split the plastic in inconvenient places so it's not my first choice. You can repeatedly score the plastic with a sharp knife to get a square of roughly the right size and then file into the desired shape, but this may take a while. You'll then need to attach this in front of the camera:
+
+- The simplest way to attach the filter is to cut a circle of the filter to the same diameter as your shell, apply a little hot glue to the front of the shell you're using and stick it in place. If it's good enough for DFRobot, it's good enough for us. If you've dabbled in phone repair before, T7000/B7000 or similar glues will also do a great job. Just be sure to keep the glue away from the part directly in front of the camera.
+- If you're using [RetroMidget's shell](https://github.com/slikvik55/Lightgun3DParts/tree/main/WiiCamEnclosure), there's a smaller circular window so you can save on a little material and only cover this area up with the filter. 
+
+If using a wide angle or fish eye lens, there are some other convenient places to stick the filter:
+
+- The wide angle lens adapters in the printables section all have a taper that's pretty forgiving to glue the filter into as long as you can cut it into a rough circle so there aren't big gaps for unfiltered light to pass through.
+- There's a lip on the inside of the lens too - you can fit a thin filter in here.
+
+
 ## Ordering
 
 Either download the gerbers from [the current release](https://github.com/eatnooM/pixart-sensor-adapter/releases/latest) or run off directly from OSHPark ([Inline](https://oshpark.com/shared_projects/reO6OkLE) / [Socketed](https://oshpark.com/shared_projects/FovxzPdv).
