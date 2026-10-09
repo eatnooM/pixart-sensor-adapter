@@ -30,6 +30,7 @@ fp-info-cache
 *.csv
 
 # Project-specific
+*/production/*
 */gerbers/*
 */gerbers-*/*
 *gerbers*.zip
